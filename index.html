@@ -25,6 +25,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/modal-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -66,17 +68,21 @@
 
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+        <div class="col-lg-5 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
             <h1>Authors World</h1>
             <h2><blockquote>
               <p>Through its weight and strength, a book signals to the world that concepts in a medium that bears heft and takes on space are worth preserving; a book, by its touchability, indicates the value of our commitment in an arena beyond and greater than our own.</p>
-              <footer style="color: #fff;"> Adharika</footer>
+              
             </blockquote></h2>
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto">Get Started</a>
             </div>
           </div>
+        </div>
+        <div class="col-lg-3 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <div class="auth-image"><img src="assets/img/ady.jpeg" class="img-fluid ad" alt=""></div>
+          <footer style="color: #fff; text-align: center;font-size: 13px; padding-top: 10px;" >~ Adharika</footer>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
@@ -109,7 +115,7 @@
 
         <div class="row">
           <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" ></a>
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
@@ -619,86 +625,109 @@
           <h2>Services</h2>
           <p>Check our Services</p>
         </div>
+        <div class="demo-btns">
 
-        <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-6 col-md-6">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
+          <div class="info">
+            <div class="buttons">
+              <p>
+                <a href="" data-modal="#modal" class="modal__trigger">Step One: Acquisition</a>
+                <a href="" data-modal="#modal2" class="modal__trigger">Second step: Editing</a>
+                <a href="" data-modal="#modal3" class="modal__trigger">Manufacture</a>
+                <a href="" data-modal="#modal3" class="modal__trigger">Fabrication/Printing</a>
+              </p>
             </div>
           </div>
-
-          <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div></div>
-          <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="400">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
         </div>
+      
+        <!-- Modal -->
+        <div id="modal" class="modal modal__bg" role="dialog" aria-hidden="true">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <h1>Step One: Acquisition</h1>
+              <p>You have forwarded the manuscript to us. The publisher will determine, according to who you are, and what your book is, whether or not to read the manuscript. They also have an editorial assistant or intern reading first and have a reading report that summarises the pros and cons of this book and makes a publication recommendation (to publish or not to publish, that is the question). Work should not be plagiarised otherwise publisher will cancel the work.
 
+                If the editor reads your work and likes it, they will plan for some kind of meeting on acquisitions. Publisher would also produce financial figures, such as a profit and loss statement, to demonstrate how they will like the book to be, how much progress they will have made, etc. Then there will be connections, negotiations and that nice thing.</p>
+              
+              <!-- modal close button -->
+              <a href="" class="modal__close demo-close">
+                <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div id="modal2" class="modal modal__bg" role="dialog" aria-hidden="true">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <h1>Second step: Editing</h1>
+              <p>The Acquisition Editor usually starts with the first round of edits. (Alas, no complete manuscript.) A few months will be granted to make these edits. For all editors, We cannot emphasise how critical it is to be timely in your work! A period of one week can detail a complete publication schedule.
+
+                Maybe your editor would like to make some more improvements before the manuscript is in top shape. Keep in mind that these edits are made instead of grammatical or word choices for content and production. These fixes will come down the road later. When your book is ready, it is transferred to a production editor.
+                
+                Production publishers are the unsung publishing heroes (and yes, we might be saying that because we are one). It is the task, the organisers, the perfectionists and particularly the schedulers. The work of the production editor begins with the copying of the manuscript. The production editor then reviews the work done and cleanses all other mistakes.
+                
+                Now, each house does this differently next, but most books go through the same kind of work: author analysis, editing and/or indexing. Some of the houses allow you to review several rounds of the author, some only give you the last shot to make adjustments. If you wish to be more or less hands-off, the Authors world is giving you a chance at a low cost and it is given because many dreams fade away due to the high tags for the publishing.</p>
+              
+              <!-- modal close button -->
+              <a href="" class="modal__close demo-close">
+                <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div id="modal3" class="modal modal__bg" role="dialog" aria-hidden="true">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <h1>Manufacture</h1>
+              <p>There will be a conversion from Microsoft Word to PDF, InDesign or some other format somewhere in the editing process. The department of design or development is key here: Take your Times New Roman manuscript boring black and white and make it look like a real novel. This includes work such as developing design elements, adjustment of pagination and preparation of the book's internals for the eventual printing process.
+
+                What about the cover? What about the cover?
+                
+                Not to worry, a cover team will still be able to work on your book while all writing and internal arrangements are underway. Almost all judges a book by the cover, and you would want an outstanding design even if they don't. The back cover (or flap copy) is always provided by the publisher, the design comes from the cover team and the printing treatments are provided in the production department. This various category helps you determine other items, such as the size of your book, whether it will be hardcovered or paperback and whether it will be metallic, matt, bright. The list goes on.
+                
+                Almost always authors take part in the cover process, but the degree of participation may be poor. Without the author's experience as a book cover designer, the design team will advise the publisher on the ideas of the writer. Keep this in mind, particularly if you don't get your dreams covered. Odds, some smart, imaginative person has for some reason made your cover a certain way. Trust us, Trust us.
+                
+                Marketing, publishing and sales
+                
+                When your book is purchased, marketers, begin to think about your book (in addition to bound galleys). And the sales team works all the time to sell your book in any shop, website and library they can.</p>
+              
+              <!-- modal close button -->
+              <a href="" class="modal__close demo-close">
+                <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div id="modal4" class="modal modal__bg" role="dialog" aria-hidden="true">
+          <div class="modal__dialog">
+            <div class="modal__content">
+              <h1>Fabrication/Printing</h1>
+              <p>If the interior is complete and ready for use, the book goes to the production department. The files are sent to a printer from here, who presses the book and makes physical copies. Then they are sent to a warehouse until they are sold. Finally, you and your readers will find the finished product.
+
+                To get up...
+                
+                These schedules, as I mentioned earlier, leave little space for delays. Most writers are happy and happy to work with, but you still get an author who regularly meets deadlines, makes outrageous demands at the last minute and is usually a pain in what you know. All I can tell is that the author isn't there. You are better than that.
+                
+                Oh, did you forgot about ebooks? If a print book is released, an ebook is usually published at the same time or soon after the print book is published. Most readers believe that the book will be available for publishing in both formats and publishers will do everything possible to meet the demand. Projects e-only go through almost all the same steps as print books, without the production and printing process.
+                
+                You will do all you can to guarantee the success of your book and that it is the book that you always want to be. So support if you can, stick to your deadlines and include your publisher in your recognitions. It's good for all of us.</p>
+              
+              <!-- modal close button -->
+              <a href="" class="modal__close demo-close">
+                <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      
       </div>
     </section><!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -757,8 +786,26 @@
         </div>
 
       </div>
-    </section><!-- End F.A.Q Section -->
-
+    </section> -->
+    <!-- End F.A.Q Section -->
+<!-- Testimonial section -->
+<section class="test-back">
+  <div class="container testimonial-cont">
+    <div class="row justify-content-between">
+      <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+        <blockquote class="otro-blockquote">
+          The author's world service is excellent. Adharika is very cooperative while I was writing the book. After publishing also she has done remarkable work in marketing and other departments. She has been a great support throughout the book and explained everything to the point. I would like to work with her again for her remarkable services.
+          <span>Ankur Yadav</span>
+        </blockquote>
+      </div>
+      
+      <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+        <div class="auth-image"><img src="assets/img/ankur_yadav.jpg" class="img-fluid ank"></div>
+      </div>
+    </div>
+  </div>
+  
+</section>
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -796,28 +843,11 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
+            <div id="background4">
+              <div id="link3">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnwIWqvLlkNJNaw5v0N4joH3qfpfFXfyz2cfegcjMBfqsg0Q/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </div>
 
           </div>
 
@@ -913,6 +943,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/modal-script.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

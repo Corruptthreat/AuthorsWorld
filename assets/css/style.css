@@ -30,6 +30,33 @@ h5{
   font-weight: 500 !important;
 }
 
+/* landing */
+.white-border{
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+.auth-image{
+  text-align: center;
+}
+.ad{
+  background-color: #fff;
+    padding: 4px;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+.test-back{
+  background-color: #f5f5ff;
+}
+.ank{
+  background-color: rgba(187, 187, 187, 0.91);
+    padding: 4px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1188,7 +1215,11 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.details-row{
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
