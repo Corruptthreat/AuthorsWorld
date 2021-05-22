@@ -12,7 +12,8 @@
   <!-- Favicons -->
   <link href="assets/img/authlogo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
@@ -792,15 +793,36 @@
 <section class="test-back">
   <div class="container testimonial-cont">
     <div class="row justify-content-between">
-      <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+      <div class="col-lg-4 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <blockquote class="otro-blockquote">
           The author's world service is excellent. Adharika is very cooperative while I was writing the book. After publishing also she has done remarkable work in marketing and other departments. She has been a great support throughout the book and explained everything to the point. I would like to work with her again for her remarkable services.
           <span>Ankur Yadav</span>
         </blockquote>
       </div>
       
-      <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-        <div class="auth-image"><img src="assets/img/ankur_yadav.jpg" class="img-fluid ank"></div>
+      <div class="col-lg-8 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+        <!-- <div class="auth-image"><img src="assets/img/ankur_yadav.jpg" class="img-fluid ank"></div> -->
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                
+                <img src="assets/img/ankur_yadav.jpg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <span class="blog-slider__code">26 December 2019</span>
+                <!-- <div class="blog-slider__title">Lorem Ipsum Dolor</div> -->
+                <div class="blog-slider__text">
+                  <div class="book-cover"><img class="book-cover-photo" src="assets/img/book_cover.jpg"></div>
+                </div>
+                <a href="#" class="blog-slider__button">READ MORE</a>
+              </div>
+            </div>
+         
+            
+          </div>
+          <div class="blog-slider__pagination"></div>
+        </div>
       </div>
     </div>
   </div>
