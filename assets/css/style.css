@@ -766,6 +766,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+  text-align: justify;
 }
 
 .about .icon-box .title a {
@@ -1698,4 +1699,5 @@ section {
 .service-details{
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  text-align: justify;
 }
